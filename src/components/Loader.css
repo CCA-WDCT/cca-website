@@ -1,0 +1,61 @@
+
+  .loader-page {
+    background-color: #333;
+    position: fixed;
+    width: 100vw;
+    height: 100%;
+    z-index: 9999;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    transition: all .5s ease-out;
+  }
+  .loader-container {
+    /* border: 1px solid steelblue; */
+    width: 600px;
+    height: auto;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .loader {
+    width: 500px;
+    height: 5px;
+    background-color: rgba(0,0,0,0.3);
+    position: relative;
+  }
+
+  .loader-counter {
+    position: absolute;
+    font-size: 200px;
+    font-family: 'Lato' ;
+    font-weight:bold;
+    color: steelblue;
+    z-index: 9;
+  }
+  h1 {
+    text-align: center;
+    color: white;
+    font-size: 3rem;
+  }
+  .overlay {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+  }
+  h1 {
+    position: absolute;
+    z-index: 1;
+  }
+
+@media (max-width: 768px) {
+h1 {
+  font-size: 5vw;
+}
+}
