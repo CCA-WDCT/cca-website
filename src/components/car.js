@@ -1,7 +1,5 @@
 import React, { Component } from 'react';
 import Load from './img';
-import Prog from './progress';
-import $ from 'jquery';
 import './car.css';
 import {Grid,Row,Col,code} from 'react-bootstrap';
 import Bar from './bar';

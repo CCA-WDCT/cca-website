@@ -32,6 +32,7 @@ section {
     animation-iteration-count: 1;
     animation-timing-function: all;
     animation-duration: 3s;
+    animation-delay: 7s;
   }
   
   @keyframes expandBar {

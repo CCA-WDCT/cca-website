@@ -21,16 +21,19 @@ class SideNav extends Component {
                 <input type="checkbox" id="side-check" />
             <div className="side-links">
             <a className="active" href="#">Home</a>
-            <a href="#">Cells</a>
-            <a href="#">Contact</a>
             <a href="#aboutcca">About</a>
+            <a href="#cells">Cells</a>
             <a href="#members">Members</a>
+            <a href="#contact">Contact</a>
             <div className="bot">
-                <a href="#">
+                <a href="https://www.facebook.com/arhn.nitd/">
                 <FontAwesome name="facebook-square" />
                 </a> 
-                <a href="#">
+                <a href="https://www.instagram.com/arhn.nitd/">
                 <FontAwesome name="instagram" />
+                </a>
+                <a href="https://www.youtube.com/user/arhnNITD">
+                <FontAwesome name="youtube" />
                 </a>
                 
             </div>
